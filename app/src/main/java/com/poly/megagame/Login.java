@@ -7,8 +7,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
@@ -32,7 +30,7 @@ public class Login extends AppCompatActivity {
         btnLogin = (Button) findViewById(R.id.btnLogin);
         btnCancel = (Button) findViewById(R.id.btnCancel);
         btndagky = (Button) findViewById(R.id.btndangky);
-        img = (ImageView) findViewById(R.id.imgview);
+        img = findViewById(R.id.img);
         chkRememberPass = (CheckBox) findViewById(R.id.chkRememberPass);
         chkRememberPass.setOnCheckedChangeListener(ck);
         edUserName.setText("admin");
