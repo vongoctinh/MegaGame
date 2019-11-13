@@ -4,4 +4,39 @@
     android:layout_height="match_parent"
     android:background="#FFBC00">
 
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/horiScrollVeiw">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="#2188DA">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:id="@+id/game"
+                android:text="Game"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Game"/>
+            <Button
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Game"/>
+            <Button
+                android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Game"/>
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:text="Game"/>
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
 </LinearLayout>

@@ -44,6 +44,12 @@ public MediaPlayer player;
             }
         });
     }
+    @Override
+    public void onStop() {
+        player.stop();
+        super.onStop();
+
+    }
     // play game activity
 //      new Handler().postDelayed(new Runnable() {
 //        @Override
