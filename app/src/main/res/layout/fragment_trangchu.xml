@@ -5,7 +5,7 @@
    >
 
     <ImageView
-        android:src="@drawable/anhtrangchu"
+        android:src="@drawable/rm"
         android:layout_width="match_parent"
         android:layout_height="157dp"
      ></ImageView>
