@@ -2,46 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#17C1C3EC">
+   >
 
-<!--    <HorizontalScrollView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="200dp"-->
-<!--        android:id="@+id/horiScrollVeiw">-->
-<!--        <LinearLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:orientation="horizontal"-->
-<!--            android:background="#2188DA">-->
-<!--            <Button-->
-<!--                android:layout_width="150dp"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:id="@+id/game"-->
-<!--                android:text="Game"/>-->
-<!--            <Button-->
-<!--                android:layout_width="150dp"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:text="Game"/>-->
-<!--            <Button-->
-<!--            android:layout_width="150dp"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:text="Game"/>-->
-<!--            <Button-->
-<!--                android:layout_width="150dp"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:text="Game"/>-->
-<!--            <Button-->
-<!--                android:layout_width="150dp"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:text="Game"/>-->
-
-
-<!--        </LinearLayout>-->
-<!--    </HorizontalScrollView>-->
     <ImageView
-        android:background="#fff"
+        android:src="@drawable/anhtrangchu"
         android:layout_width="match_parent"
-        android:layout_height="200dp"></ImageView>
+        android:layout_height="157dp"
+     ></ImageView>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -50,10 +17,11 @@
         android:orientation="horizontal">
 
         <ImageView
+            android:src="@drawable/house"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:background="#111"></ImageView>
+            android:background="#BA111111"></ImageView>
 
         <ImageView
             android:layout_weight="5"
@@ -63,13 +31,16 @@
            ></ImageView>
 
         <ImageView
+
+            android:src="@drawable/window"
             android:layout_weight="1"
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:background="#310EB8"></ImageView>
+            android:background="#57310EB8"></ImageView>
 
     </LinearLayout>
     <SearchView
+
         android:layout_marginTop="10dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
@@ -77,6 +48,13 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"></SearchView>
     <LinearLayout
+
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -128,6 +106,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"></TextView>
     <LinearLayout
+        android:layout_marginLeft="5dp"
         android:layout_marginTop="5dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -160,6 +139,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Xếp Hình"></TextView>
+    </LinearLayout>
 
 
 </LinearLayout>
