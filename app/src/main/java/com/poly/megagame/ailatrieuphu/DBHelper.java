@@ -15,9 +15,7 @@
 //import java.io.OutputStream;
 //import java.util.ArrayList;
 //
-///**
-// * Created by admin on 12/27/2016.
-// */
+
 //
 //public class DBHelper extends SQLiteOpenHelper {
 //

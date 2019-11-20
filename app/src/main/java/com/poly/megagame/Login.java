@@ -7,6 +7,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
@@ -35,15 +37,15 @@ public class Login extends AppCompatActivity {
         chkRememberPass.setOnCheckedChangeListener(ck);
         edUserName.setText("admin");
         edPassword.setText("123456");
-        // animation
+
 //        Animation animation = AnimationUtils.loadAnimation(this,R.anim.aninn_button);
 //        btndagky.startAnimation(animation);
 //        edUserName.startAnimation(animation);
 //        Animation animation1 = AnimationUtils.loadAnimation(this,R.anim.button);
 //        edPassword.startAnimation(animation1);
 //        btnLogin.startAnimation(animation1);
-//        Animation animation2 = AnimationUtils.loadAnimation(this,R.anim.aninn_img);
-//        img.startAnimation(animation2);
+////        Animation animation2 = AnimationUtils.loadAnimation(this,R.anim.aninn_img);
+////        img.startAnimation(animation2);
 
     }
     public void checkLogin(View v){

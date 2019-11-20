@@ -1,9 +1,5 @@
 package com.poly.megagame.ailatrieuphu;
 
-/**
- * Created by phamtiendat on 11/22/16.
- */
-
 public class Question {
     public String cauhoi;
     public String caseA;
