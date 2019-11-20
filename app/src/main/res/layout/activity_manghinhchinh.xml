@@ -44,15 +44,15 @@
             android:layout_marginRight="16dp"
             android:layout_marginBottom="16dp"
             android:background="@drawable/button3"
-            android:text="Bắc đàu"
-            android:textColor="#3F51B5"
+            android:text="Bắt Đầu"
+            android:textColor="#E7EAFD"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.689" />
+            app:layout_constraintVertical_bias="0.654" />
 
         <LinearLayout
             android:id="@+id/liner1"

@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.RatingBar;
 import android.widget.Toast;
 
@@ -16,6 +17,7 @@ import androidx.fragment.app.Fragment;
 import com.poly.megagame.R;
 
 public class Fragment_DangGia extends Fragment {
+    Button danhgia, desau;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
