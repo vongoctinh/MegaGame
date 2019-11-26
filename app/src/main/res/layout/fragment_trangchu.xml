@@ -5,11 +5,10 @@
    >
 
     <ImageView
-        android:background="#D0FAE3E3"
-        android:src="@drawable/rm"
         android:layout_width="match_parent"
         android:layout_height="157dp"
-     ></ImageView>
+        android:background="#D0F3E9E9"
+        android:src="@drawable/anhtrangchu"></ImageView>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,12 +25,17 @@
             android:layout_height="50dp"
             android:background="#BA111111"></ImageView>
 
-        <ImageView
+        <TextView
+            android:textColor="#735AE2"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Trang Chủ"
+            android:textSize="38dp"
             android:layout_weight="5"
             android:layout_width="0dp"
             android:layout_height="50dp"
-            android:background="#CF1111"
-           ></ImageView>
+            android:background="#75CC3F3F"
+           ></TextView>
 
         <ImageView
 android:id="@+id/imgchiase"
